@@ -1,3 +1,4 @@
+use_for_each    = true
 rg_name         = "OXZRGOXHD01"
 Subnet_name1    = "172.26.250.32/27"
 Subnet_name2    = "172.26.250.96/27"

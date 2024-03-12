@@ -1,3 +1,14 @@
+variable "vnet_location" {
+  type        = string
+  description = "The location of the vnet to create."
+  nullable    = false
+}
+variable "use_for_each" {
+  type        = bool
+  description = "Use `for_each` instead of `count` to create multiple resource instances."
+  nullable    = false
+}
+
 variable "short_company" {
   type        = string
   description = "Short Name for Company"
